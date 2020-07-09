@@ -14,8 +14,6 @@ namespace PetShelterConsole
             var dog2 = new Dog("Spot", 1, true, 'S',"Chihuahua");
             var mouse1 = new Mouse("Ron", 1, false);
 
-            dog1.Speak();
-
             // Instantiate a PetStorageList and "inject" it into the PetShelter
             var petStorage = new PetStorageList();
             var adoptionStorage = new AdoptionStorageList();

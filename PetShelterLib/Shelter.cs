@@ -63,7 +63,7 @@ namespace PetShelterLib
             if (foundPet == false) {
                 Console.WriteLine("No pet by that name was found");
             }
-
+            
         }
 
     }
